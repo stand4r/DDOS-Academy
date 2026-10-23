@@ -180,7 +180,7 @@ class IPManager:
                 "geo": {"region": "OTHER", "country": "US"},
                 "asn": 65534,
                 "org": "Generic ISP"
-            }
+            }        
     
     def get_pool_statistics(self, pool_id: str) -> Dict[str, Any]:
         if pool_id not in self.pools:

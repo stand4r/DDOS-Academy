@@ -2,7 +2,11 @@ import sys
 from PyQt5.QtWidgets import QApplication
 from ui_interface import DDoSAcademy
 
+
 def main():
+    """
+    Назначение и краткое описание функции `main`.
+    """
     app = QApplication(sys.argv)
     app.setStyle('Fusion')
     window = DDoSAcademy()

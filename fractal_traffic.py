@@ -10,7 +10,7 @@ class FractalTrafficGenerator:
         self.burst_profile = {"peak_mean_ratio": 3.0, "burst_duration_mean": 5, "burst_duration_std": 2}
         
     def generate_fractal_traffic(self, duration: int, time_elapsed: int, 
-                               traffic_mode: str = "pps") -> Dict[str, float]:
+                               traffic_mode: str = "pps") -> Dict[str, floЫat]:
         if not self.time_series:
             self._generate_advanced_fractal_series(duration)
         
@@ -63,3 +63,5 @@ class FractalTrafficGenerator:
             "burst_duration_mean": duration_mean,
             "burst_duration_std": duration_std
         }
+            
+   def set_
