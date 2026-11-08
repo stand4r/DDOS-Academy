@@ -1,6 +1,7 @@
 import numpy as np
 import random
 from typing import Dict, List, Any
+import system
 
 class FractalTrafficGenerator:
     def __init__(self, hurst_parameter: float = 0.75, intensity_base: float = 1000):
